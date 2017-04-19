@@ -1,7 +1,11 @@
+body{
+  text-align: center;
+  font-family: 'Days One', sans-serif;
+  }
 .estiloCancha{
     position: relative;
     margin-top: 3%;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-bottom: 5%;
     width: 650px;
     height: 350px;
@@ -19,8 +23,7 @@
   }
 
   .balon{
-    float: left;
-    vertical-align: middle;
+    position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -36,31 +39,16 @@
     width: 100px;
     height: 200px;
   }
-
-  .alineaCentro{
-    left: 50%;
-    height: 300px;
-  }
-
   .tamCirculo{
     width: 50px;
     height: 100px;
   }
   /*ESTILO CANCHA SOCCER*/
-    #canchaS{
-      cursor: url("playerSoccer.png"), auto;
-    }
     #soccerCancha{
       background-color:#7CB342;
     }
     #izq{
       top: 50px;
-    }
-
-    #circuloIzq{
-      left: 100px;
-      top: 33%;
-      border-radius: 0 100px 100px 0;
     }
 
     #circuloCentro{
@@ -71,13 +59,21 @@
       border-radius: 50%;
     }
 
-    #circuloDer{
-      right: 17%;
-      top: 33%;
-      border-radius: 100px 0 0 100px;
-    }
-
     #der{
       top: 50px;
       right: 0;
+    }
+
+    #a{
+      margin-left: 16%;
+      margin-top: 8%;
+    }
+
+    #b{
+      margin-top: 10%;
+      margin-left:50%;
+    }
+    #c{
+      margin-top: 40%;
+      margin-left:80%;
     }
