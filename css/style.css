@@ -1,0 +1,83 @@
+.estiloCancha{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    width: 650px;
+    height: 350px;
+    border: 2px solid #7CB342;
+    background-color: #33691E;
+  }
+
+  .cancha{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 600px;
+    height: 300px;
+    border: 3px solid white;
+  }
+
+  .balon{
+    float: left;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .estiloForma{
+    position: absolute;
+    border: 1px solid white;
+  }
+
+  .tamForma{
+    width: 100px;
+    height: 200px;
+  }
+
+  .alineaCentro{
+    left: 50%;
+    height: 300px;
+  }
+
+  .tamCirculo{
+    width: 50px;
+    height: 100px;
+  }
+  /*ESTILO CANCHA SOCCER*/
+    #canchaS{
+      cursor: url("playerSoccer.png"), auto;
+    }
+    #soccerCancha{
+      background-color:#7CB342;
+    }
+    #izq{
+      top: 50px;
+    }
+
+    #circuloIzq{
+      left: 100px;
+      top: 33%;
+      border-radius: 0 100px 100px 0;
+    }
+
+    #circuloCentro{
+      top: 30%;
+      left: 42%;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    #circuloDer{
+      right: 17%;
+      top: 33%;
+      border-radius: 100px 0 0 100px;
+    }
+
+    #der{
+      top: 50px;
+      right: 0;
+    }
